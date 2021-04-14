@@ -17,8 +17,8 @@ class Box {
     translate(pos.x, pos.y);
     rotate(angle);
     rectMode(CENTER);
-    fill(255);
-    rect(this.body.position.x, this.body.position.y, this.width, this.height);
+    fill("yellow");
+    rect(0, 0, this.width, this.height);
     pop();
   }
 };
